@@ -12,4 +12,5 @@ const rotate = keyframes`
 
 export const Logo = styled.img`
   animation: ${rotate} 100s infinite;
+  max-width: 200px;
 `;
